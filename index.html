@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container-fluid">
+                <div class="header_logo">
+                    <img src="./images/logo.png" alt="" height="80px" width="80px">
+                    <p class="header_inner_text__1">Baby Kids</p>
+                    <nav id="navbar_search" class="navbar navbar-light">
+                        <div class="container-fluid ">
+                          <form class="d-flex">
+                            <input class="form-control me-2 col-8" type="search" placeholder="Поиск" aria-label="Search" aria-describedby="basic-addon1"  >
+                            <button class="btn btn-outline-success" type="submit">Поиск</button>
+                          </form>
+                        </div>
+                      </nav>
+                    <div class="numbers">
+                        <p class="header_inner_text__2">8(382)568-72-72</p>
+                        <p class="header_inner_text__3">8(800)800-75-78</p>
+                    </div>
+                    <!-- Button trigger modal -->
+                  <button id="bin_button" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Ваши товары</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                          <button type="button" class="btn btn-primary">Перейти к заказу</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="header_inner__2">
+  
+                <div class="topnav" id="myTopnav">
+                  <div class="biba">
+                    <a class="catalog_text" href="#home">КАТАЛОГ ИГРУШЕК</a>
+                    <a class="links_top_text" href="#one">МАЛЫШАМ</a>
+                    <a class="links_top_text" href="#two">МАЛЬЧИКАМ</a>
+                    <a class="links_top_text" href="#three">ДЕВОЧКАМ</a>
+                    <a  class="links_top_text_akcii" href="#four">АКЦИИ</a>
+                  </div>
+                  <div class="boba">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                  
+                </div>
+          
+  </header>
+    </header>
+    <section class="container">
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="carousel_image" src="./images/slider1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item ">
+                <img id="carousel_image" src="./images/slider2.jpg" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img id="carousel_image" src="./images/slider3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
+            <!-- Posts section -->
+          <div class="blog">
+            <div class="container">
+            <h1 class="top_products">Популярные товары</h1>
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                <a href="#"><img src="./images/product1.png" class="img-fluid"></a>
+                </div>
+                
+                <div class="card-body">
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <a href="#"><img src="./images/product2.png" class="img-fluid"></a>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <a href="#"><img src="./images/product3.png" class="img-fluid"></a>
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+            <div class="foto_block">
+              <div class="zagolovok" id="one">
+                  <h2>Товары для малышей</h2>
+              </div>
+              <div class="foto">
+                  <div class="foto_flex">
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product4.png" alt="">
+                          <p class="text">Счеты радуга</p>
+                          <div class="sale">
+                              <p>480 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product5.png" alt="">
+                          <p class="text">Mapacha Лабиринт</p>
+                          <div class="sale">
+                              <p>1350 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product6.png" alt="">
+                          <p class="text">Музыкальный центр</p>
+                          <div class="sale">
+                              <p>1350 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                        <img class="card1" src="./images/product7.png" alt="">
+                        <p class="text">STELLAR игрушка</p>
+                        <div class="sale">
+                            <p>1990 ₽</p>
+                            <a href="#"><img src="./images/korzina.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product8.png" alt="">
+                          <p class="text">БИЗИКУБ</p>
+                          <div class="sale">
+                              <p>2050 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product9.png" alt="">
+                          <p class="text">Волшебный домик</p>
+                          <div class="sale">
+                              <p>510 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product10.jpg" alt="">
+                          <p class="text">Pelsi i597 Игра</p>
+                          <div class="sale">
+                              <p>1700 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product11.jpg" alt="">
+                          <p class="text">Mattel Mega Bloks</p>
+                          <div class="sale">
+                              <p>950 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      </div>
+                  </div>             
+              </div>
+          </div>
+          <h2 class="products_for_boys" id="two">Товары для мальчиков</h2>
+              </div>
+              <div class="foto">
+                  <div class="foto_flex">
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product12.png" alt="">
+                          <p class="text">Внедорожник Mini monster car</p>
+                          <div class="sale">
+                              <p>480 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product13.png" alt="">
+                          <p class="text">Самокат BlueAqua</p>
+                          <div class="sale">
+                              <p>1350 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product14.png" alt="">
+                          <p class="text">Настольная игра "Не спугни пингвина"</p>
+                          <div class="sale">
+                              <p>1350 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                        <img class="card1" src="./images/product15.png" alt="">
+                        <p class="text">Брелок кубик-рубик</p>
+                        <div class="sale">
+                            <p>1990 ₽</p>
+                            <a href="#"><img src="./images/korzina.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product16.png" alt="">
+                          <p class="text">Lego City</p>
+                          <div class="sale">
+                              <p>2050 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product17.jpg" alt="">
+                          <p class="text">Bunch O Balloons</p>
+                          <div class="sale">
+                              <p>510 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product19.png" alt="">
+                          <p class="text">Велли мотоцикл</p>
+                          <div class="sale">
+                              <p>1700 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product18.jpg" alt="">
+                          <p class="text">Фигурка героя Ragnarok</p>
+                          <div class="sale">
+                              <p>950 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                         </div>
+                         <h2 class="products_for_girls" id="three">Товары для девочек</h2>
+              <div class="foto">
+                  <div class="foto_flex">
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product20.png" alt="">
+                          <p class="text">Счеты радуга</p>
+                          <div class="sale">
+                              <p>480 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product21.jpg" alt="">
+                          <p class="text">Mapacha Лабиринт</p>
+                          <div class="sale">
+                              <p>1350 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product22.png" alt="">
+                          <p class="text">Музыкальный центр</p>
+                          <div class="sale">
+                              <p>1350 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                        <img class="card1" src="./images/product23.png" alt="">
+                        <p class="text">STELLAR игрушка</p>
+                        <div class="sale">
+                            <p>1990 ₽</p>
+                            <a href="#"><img src="./images/korzina.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product24.png" alt="">
+                          <p class="text">БИЗИКУБ</p>
+                          <div class="sale">
+                              <p>2050 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product25.png" alt="">
+                          <p class="text">Волшебный домик</p>
+                          <div class="sale">
+                              <p>510 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product26.png" alt="">
+                          <p class="text">Pelsi i597 Игра</p>
+                          <div class="sale">
+                              <p>1700 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="foto_content">
+                          <img class="card1" src="./images/product27.jpg" alt="">
+                          <p class="text">Mattel Mega Bloks</p>
+                          <div class="sale">
+                              <p>950 ₽</p>
+                              <a href="#"><img src="./images/korzina.png" alt=""></a>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        
+
+                          <h2 class="text_for_akcii" id="four">Акции</h2>
+                        <div class="akcii_container">
+                          <div class="akcii_flex">
+                            <div class="akcii1">
+                              <div class="akcii_content">
+                                <a href="#"><img src="./images/sale1.png" alt=""></a>
+                              </div>
+                              <div class="akcii_content">
+                                <a href="#"><img src="./images/sale2.png" alt=""></a>
+                              </div>
+                            </div>
+                            <div class="akcii1">
+                              <div class="akcii_content">
+                                <a href="#"><img src="./images/sale3.png" alt=""></a>
+                              </div>
+                              <div class="akcii_content">
+                                <a href="#"><img src="./images/sale4.png" alt=""></a>
+                              </div>
+                            </div>
+                            <div class="akcii1">
+                              <div class="akcii_content">
+                                <a href="#"><img src="./images/sale5.png" alt=""></a>
+                              </div>
+                              <div class="akcii_content">
+                                <a href="#"><img src="./images/sale6.png" alt=""></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+    </section>
+    <!-- Footer -->
+
+    <section class="social_media">
+      
+      <div class="social_media_1">
+        <a href="#"> <img src="./images/socialmedia.png" alt="" width="42px" height="42px"> </a>
+        <a href="#"> <img src="./images/socialmedia2.png" alt="" width="50px" height="44px"> </a>
+      </div>
+      <div class="social_media_2">
+        <span>8(382)568-72-72 <br> Бесплатно по всей России</span>
+      </div>
+      <div class="social_media_3">
+        <a href="#"><img src="./images/socialmedia3.png" alt="" width="50px" height="50px"></a>
+        <a href="#"><img src="./images/socialmedia4.png" alt="" width="50px" height="50px"></a>
+      </div>
+      
+    </section>
+<footer class="text-center text-lg-start bg-light text-muted">
+
+  
+  <!-- Section: Social media -->
+  <section id="top_footer">
+    
+
+    <!-- Left -->
+
+    <!-- Right -->
+
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Профиль
+          </h6>
+          <p class="footer_links">
+            <a href="#" class="text-reset">Личный кабинет</a>
+          </p>
+          <p class="footer_links">
+            <a href="#" class="text-reset">Правила бонусной программы</a>
+          </p>
+          <p class="footer_links">
+            <a href="#" class="text-reset">Подарочные сертификаты</a>
+          </p>
+          <p class="footer_links">
+            <a href="#" class="text-reset">Договор оферты</a>
+          </p>
+            
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            компания
+          </h6>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">О компании</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Контактная информация</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Реквизиты</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Вакансии</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Сервисы
+          </h6>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Корзина подарков</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Доставка и оплата</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Как выбрать игрушку</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Возврат</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Как купить?</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Инфоморация
+          </h6>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Новости</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Обзоры</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Каталог</a>
+          </p>
+          <p class="footer_links">
+            <a href="#!" class="text-reset">Оптовикам</a>
+          </p>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright: 
+    <a class="text-reset fw-bold" href="#">babytoys</a>
+    7(984)129-53-81
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+<script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
